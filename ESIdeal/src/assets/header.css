@@ -1,0 +1,26 @@
+/* HEADER */
+#header{
+    grid-area: header;
+    background-color: #012136;
+    color: white;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#idUser{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+#idPosto{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 3%;
+    font-size: 4vh;
+}
+/* HEADER */

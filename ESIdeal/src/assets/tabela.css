@@ -1,0 +1,139 @@
+/* SEARCH BUTTONS */
+#searchButtons{
+    grid-area: searchButtons;
+    width: 80%;
+    margin: auto;
+}
+
+.search{
+    background-color: #0099FF;
+    border-radius: 1vh;
+    font-size: 2vw;
+    margin-right: 1vw;
+}
+
+.non-clickable{
+    background-color: #98A1BB !important; 
+    pointer-events: none;
+}
+/* SEARCH BUTTONS */
+
+
+/* TABLE */
+#tabelaContainer{
+    grid-area: tabelaContainer;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+#tabelaServicos{
+    background-color: #012136;
+    border-collapse: collapse;
+    color: white;
+    width: 100%;
+    border-radius: 2vh;
+    overflow: hidden;
+}
+
+th{
+    background-color: #163041;
+    color: white;
+    border: 1px solid gray;
+    padding: 0vh 1.5vh;
+    text-align: left;
+    font-size: calc(0.8vw + 0.8vh);
+    user-select: none;
+}
+
+th:nth-child(1), td:nth-child(1) {
+    width: 25%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 35%; 
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 20%; 
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 20%; 
+}
+
+
+td{
+    border: 1px solid gray;
+    padding: 1.5vh;
+    text-align: left;
+    font-size: calc(0.8vw + 0.8vh);
+}
+
+.rowButton:hover {
+    background-color: rgb(17, 42, 117);
+}
+
+
+.column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#columnArrowDown{
+    height: 4vh;
+}
+
+#columnArrowSide{
+    height: 5vh;
+}
+
+.statusItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.plus{
+    text-align: right;
+    color: white;
+}
+/* TABLE */
+
+
+
+/* PAGINATION */
+#paginationContent{
+    grid-area: paginationContent;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagination{
+    height: 70%;
+    background-color: #012136;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+    padding: 0vh 0.6vh;
+}
+
+.page{
+    margin: 0vh 0.5vh;
+    font-size: 2vh;
+    background-color: #0099FF;
+    color: white;
+    border-radius: 1vh;
+    padding: 1vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PAGINATION */

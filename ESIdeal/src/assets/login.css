@@ -1,0 +1,94 @@
+#contentApp {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10% 90%;
+    grid-template-columns: 0.7fr 0.03fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "image separator info"
+} 
+
+
+#image{
+    grid-area: image;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 90%;
+}
+
+#separator{
+    grid-area: separator;
+    background-color: #002235;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+
+#info{
+    grid-area: info;
+    margin-top: 9vh;
+    margin-bottom: 9vh;
+    margin-left: 10%;
+}
+
+.inputTitle {
+    margin-bottom: 2%;
+    font-size: 4vh;
+}
+
+
+input{
+    background-color: #8C8C8C;
+    margin: 0;
+    width: 60vh;
+    height: 7%;
+    border-radius: 1vh;
+    border: none;
+    font-size: 3vh;
+}
+
+
+h1{
+    margin-bottom: 6%;
+    font-size: 7vh;
+    font-weight: normal;
+}
+
+
+#voltar{
+    margin-top: 8%;
+    font-size: 4vh;
+    width: 25vh;
+    background-color: #FF7836;
+    color: white;
+    border-radius: 1vh;
+    margin-right: 15px;
+    
+}
+
+#entrar{
+    margin-top: 8%;
+    font-size: 4vh;
+    width: 25vh;
+    background-color: #002235;
+    color: white;
+    border-radius: 1vh;
+
+}
+
+
+#errorPopUp{
+    background-color: #D25454;
+    font-size: 2vh;
+    color: white;
+    width: 30vh;
+    height: 6vh;
+}
+
+#messageError{
+    font-size: 2.5vh;
+}

@@ -1,0 +1,1588 @@
+{
+    "service-definitions": [
+        {
+            "id": "sp",
+            "descr": "Substituir pneus",
+            "duração": 40
+        },
+        {
+            "id": "cr",
+            "descr": "Calibrar rodas",
+            "duração": 20
+        },
+        {
+            "id": "ad",
+            "descr": "Alinhar direção",
+            "duração": 30
+        },
+        {
+            "id": "sct",
+            "descr": "Subsituir calços travões",
+            "duração": 60
+        },
+        {
+            "id": "mot",
+            "descr": "Mudar óleo travões",
+            "duração": 20
+        },
+        {
+            "id": "li",
+            "descr": "Limpeza interior",
+            "duração": 120
+        },
+        {
+            "id": "le",
+            "descr": "Limpeza exterior",
+            "duração": 30
+        },
+        {
+            "id": "sfah",
+            "descr": "Substituir filtro ar habitáculo",
+            "duração": 30
+        },
+        {
+            "id": "mom",
+            "descr": "Mudar óleo motor",
+            "duração": 10
+        },
+        {
+            "id": "sfo",
+            "descr": "Substituir filtro óleo",
+            "duração": 20
+        },
+        {
+            "id": "sfc",
+            "descr": "Substituir filtro combustível",
+            "duração": 30
+        },
+        {
+            "id": "sfam",
+            "descr": "Substituir filtro ar motor",
+            "duração": 30
+        },
+        {
+            "id": "scc",
+            "descr": "Substituir conversor catalítico",
+            "duração": 30
+        },
+        {
+            "id": "sba",
+            "descr": "Substituir bateria de arranque",
+            "duração": 30
+        },
+        {
+            "id": "svi",
+            "descr": "Substituir velas de incandescência",
+            "duração": 30
+        },
+        {
+            "id": "sfp",
+            "descr": "Substituir filtro de partículas",
+            "duração": 30
+        },
+        {
+            "id": "rfp",
+            "descr": "Regenerar filtro de partículas",
+            "duração": 30
+        },
+        {
+            "id": "sva",
+            "descr": "Substituir válvula do acelerador",
+            "duração": 30
+        },
+        {
+            "id": "svi",
+            "descr": "Substituir velas de ignição",
+            "duração": 30
+        },
+        {
+            "id": "adb",
+            "descr": "Avaliar desempenho da bateria",
+            "duração": 30
+        },
+        {
+            "id": "sb",
+            "descr": "Substituir bateria",
+            "duração": 20
+        }
+    ],
+    "vehicle-types": [
+        {
+            "id": "Gasolina",
+            "serviços": [
+                "sp",
+                "cr",
+                "ad",
+                "sct",
+                "mot",
+                "li",
+                "le",
+                "sfah",
+                "mom",
+                "sfo",
+                "sfc",
+                "sfam",
+                "scc",
+                "sba",
+                "sva",
+                "svi"
+            ]
+        },
+        {
+            "id": "Gasóleo",
+            "serviços": [
+                "sp",
+                "cr",
+                "ad",
+                "sct",
+                "mot",
+                "li",
+                "le",
+                "sfah",
+                "mom",
+                "sfo",
+                "sfc",
+                "sfam",
+                "scc",
+                "sba",
+                "svi",
+                "sfp",
+                "rfp"
+            ]
+        },
+        {
+            "id": "Elétrico",
+            "serviços": [
+                "sp",
+                "cr",
+                "ad",
+                "sct",
+                "mot",
+                "li",
+                "le",
+                "sfah",
+                "adb",
+                "sb"
+            ]
+        },
+        {
+            "id": "Híbrido",
+            "serviços": [
+                "sp",
+                "cr",
+                "ad",
+                "sct",
+                "mot",
+                "li",
+                "le",
+                "sfah",
+                "mom",
+                "sfo",
+                "sfc",
+                "sfam",
+                "scc",
+                "sba",
+                "sva",
+                "svi",
+                "adb",
+                "sb"
+            ]
+        }
+    ],
+    "clients": [
+        {
+            "id": "123",
+            "nome": "João Silva",
+            "email": "js@imail.com",
+            "telefone": "912345678"
+        },
+        {
+            "id": "124",
+            "nome": "Maria Santos",
+            "email": "jms@imail.com",
+            "telefone": "912345679"
+        },
+        {
+            "id": "125",
+            "nome": "José Pereira",
+            "email": "jp@imail.com",
+            "telefone": "912345680"
+        },
+        {
+            "id": "126",
+            "nome": "Ana Oliveira",
+            "email": "anao@imail.com",
+            "telefone": "912345681"
+        },
+        {
+            "id": "127",
+            "nome": "Pedro Ferreira",
+            "email": "pedrof@imail.com",
+            "telefone": "912345682"
+        },
+        {
+            "id": "128",
+            "nome": "Sandra Costa",
+            "email": "sandrac@imail.com",
+            "telefone": "912345683"
+        },
+        {
+            "id": "129",
+            "nome": "Miguel Almeida",
+            "email": "miguela@imail.com",
+            "telefone": "912345684"
+        },
+        {
+            "id": "130",
+            "nome": "Carla Sousa",
+            "email": "carlas@imail.com",
+            "telefone": "912345685"
+        },
+        {
+            "id": "131",
+            "nome": "Rui Mendes",
+            "email": "ruim@imail.com",
+            "telefone": "912345686"
+        },
+        {
+            "id": "132",
+            "nome": "Diana Carvalho",
+            "email": "dianac@imail.com",
+            "telefone": "912345687"
+        },
+        {
+            "id": "133",
+            "nome": "Hugo Martins",
+            "email": "hugom@imail.com",
+            "telefone": "912345688"
+        },
+        {
+            "id": "134",
+            "nome": "Inês Ramos",
+            "email": "inesr@imail.com",
+            "telefone": "912345689"
+        },
+        {
+            "id": "135",
+            "nome": "Bruno Sousa",
+            "email": "brunos@imail.com",
+            "telefone": "912345690"
+        },
+        {
+            "id": "136",
+            "nome": "Sofia Fernandes",
+            "email": "sofiaf@imail.com",
+            "telefone": "912345691"
+        },
+        {
+            "id": "137",
+            "nome": "António Gonçalves",
+            "email": "antoniog@imail.com",
+            "telefone": "912345692"
+        },
+        {
+            "id": "138",
+            "nome": "Luisa Rodrigues",
+            "email": "luisar@imail.com",
+            "telefone": "912345693"
+        },
+        {
+            "id": "139",
+            "nome": "Fernando Neves",
+            "email": "fernandon@imail.com",
+            "telefone": "912345694"
+        },
+        {
+            "id": "140",
+            "nome": "Ana Santos",
+            "email": "anas@imail.com",
+            "telefone": "912345695"
+        },
+        {
+            "id": "141",
+            "nome": "Paulo Oliveira",
+            "email": "pauloo@imail.com",
+            "telefone": "912345696"
+        },
+        {
+            "id": "142",
+            "nome": "Teresa Martins",
+            "email": "teresam@imail.com",
+            "telefone": "912345697"
+        },
+        {
+            "id": "143",
+            "nome": "Ricardo Costa",
+            "email": "ricardoc@imail.com",
+            "telefone": "912345698"
+        },
+        {
+            "id": "144",
+            "nome": "Catarina Alves",
+            "email": "catarinaa@imail.com",
+            "telefone": "912345699"
+        },
+        {
+            "id": "145",
+            "nome": "Gonçalo Carvalho",
+            "email": "goncaloc@imail.com",
+            "telefone": "912345700"
+        }
+    ],
+    "vehicles": [
+        {
+            "id": "08-25-AA",
+            "clientId": "123",
+            "vehicle-typeId": "Gasolina",
+            "cilindrada": 1000,
+            "kms": 200000
+        },
+        {
+            "id": "AH-31-BB",
+            "clientId": "124",
+            "vehicle-typeId": "Gasóleo",
+            "cilindrada": 2000,
+            "kms": 120000
+        },
+        {
+            "id": "AH-32-44",
+            "clientId": "123",
+            "vehicle-typeId": "Elétrico",
+            "potencia": 200,
+            "kms": 20000
+        },
+        {
+            "id": "AH-21-25",
+            "clientId": "125",
+            "vehicle-typeId": "Híbrido",
+            "cilindrada": 1000,
+            "potencia": 200,
+            "kms": 80000
+        },
+        {
+            "id": "AA-01-BB",
+            "clientId": "126",
+            "vehicle-typeId": "Híbrido",
+            "cilindrada": 1500,
+            "potencia": 180,
+            "kms": 50000
+        },
+        {
+            "id": "AA-02-BB",
+            "clientId": "127",
+            "vehicle-typeId": "Gasolina",
+            "cilindrada": 1200,
+            "kms": 70000
+        },
+        {
+            "id": "AA-03-BB",
+            "clientId": "128",
+            "vehicle-typeId": "Elétrico",
+            "potencia": 250,
+            "kms": 30000
+        },
+        {
+            "id": "AA-04-BB",
+            "clientId": "129",
+            "vehicle-typeId": "Gasóleo",
+            "cilindrada": 1800,
+            "kms": 90000
+        },
+        {
+            "id": "AA-05-BB",
+            "clientId": "130",
+            "vehicle-typeId": "Gasolina",
+            "cilindrada": 1400,
+            "kms": 60000
+        },
+        {
+            "id": "AA-06-BB",
+            "clientId": "131",
+            "vehicle-typeId": "Híbrido",
+            "cilindrada": 1300,
+            "potencia": 160,
+            "kms": 55000
+        },
+        {
+            "id": "AA-07-BB",
+            "clientId": "132",
+            "vehicle-typeId": "Elétrico",
+            "potencia": 230,
+            "kms": 35000
+        },
+        {
+            "id": "AA-08-BB",
+            "clientId": "133",
+            "vehicle-typeId": "Gasóleo",
+            "cilindrada": 2000,
+            "kms": 80000
+        },
+        {
+            "id": "AA-09-BB",
+            "clientId": "134",
+            "vehicle-typeId": "Híbrido",
+            "cilindrada": 1600,
+            "potencia": 190,
+            "kms": 60000
+        },
+        {
+            "id": "AA-10-BB",
+            "clientId": "135",
+            "vehicle-typeId": "Gasolina",
+            "cilindrada": 1500,
+            "kms": 65000
+        },
+        {
+            "id": "AA-11-BB",
+            "clientId": "136",
+            "vehicle-typeId": "Elétrico",
+            "potencia": 240,
+            "kms": 32000
+        },
+        {
+            "id": "AA-12-BB",
+            "clientId": "137",
+            "vehicle-typeId": "Gasóleo",
+            "cilindrada": 2200,
+            "kms": 75000
+        },
+        {
+            "id": "AA-13-BB",
+            "clientId": "138",
+            "vehicle-typeId": "Híbrido",
+            "cilindrada": 1700,
+            "potencia": 200,
+            "kms": 55000
+        },
+        {
+            "id": "AA-14-BB",
+            "clientId": "139",
+            "vehicle-typeId": "Gasolina",
+            "cilindrada": 1600,
+            "kms": 70000
+        },
+        {
+            "id": "AA-15-BB",
+            "clientId": "140",
+            "vehicle-typeId": "Elétrico",
+            "potencia": 220,
+            "kms": 33000
+        },
+        {
+            "id": "AA-16-BB",
+            "clientId": "141",
+            "vehicle-typeId": "Gasóleo",
+            "cilindrada": 1800,
+            "kms": 85000
+        },
+        {
+            "id": "AA-17-BB",
+            "clientId": "142",
+            "vehicle-typeId": "Híbrido",
+            "cilindrada": 1800,
+            "potencia": 190,
+            "kms": 58000
+        },
+        {
+            "id": "AA-18-BB",
+            "clientId": "143",
+            "vehicle-typeId": "Gasolina",
+            "cilindrada": 1700,
+            "kms": 72000
+        },
+        {
+            "id": "AA-19-BB",
+            "clientId": "144",
+            "vehicle-typeId": "Elétrico",
+            "potencia": 260,
+            "kms": 31000
+        },
+        {
+            "id": "AA-20-BB",
+            "clientId": "145",
+            "vehicle-typeId": "Gasóleo",
+            "cilindrada": 1900,
+            "kms": 88000
+        }
+    ],
+    "services": [
+        {
+            "id": "s1",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s2",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s3",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s4",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s5",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s6",
+            "vehicleId": "AH-31-BB",
+            "service-definitionId": "li",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/03/26 14:15",
+            "descrição": "Atenção ao banco do condutor."
+        },
+        {
+            "id": "s7",
+            "vehicleId": "AH-32-44",
+            "service-definitionId": "le",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Ver jantes."
+        },
+        {
+            "id": "s8",
+            "vehicleId": "AH-21-25",
+            "service-definitionId": "sfc",
+            "estado": "Pendente",
+            "agendamento": "filaDeEspera",
+            "descrição": "Falta o filtro."
+        },
+        {
+            "id": "s9",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s10",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "li",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/02/02 14:15",
+            "descrição": "shampoo XPTO"
+        },
+        {
+            "id": "s11",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s12",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s13",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s14",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s15",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s16",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": "Colocar XPTO 225R15"
+        },
+        {
+            "id": "s16",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/06 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s17",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "mom",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s18",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sfc",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/06 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s19",
+            "vehicleId": "08-25-AA",
+            "service-definitionId": "sva",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s20",
+            "vehicleId": "AH-31-BB",
+            "service-definitionId": "mom",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/12 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s21",
+            "vehicleId": "AH-31-BB",
+            "service-definitionId": "sfo",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s22",
+            "vehicleId": "AH-31-BB",
+            "service-definitionId": "sct",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/03/30 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s23",
+            "vehicleId": "AH-31-BB",
+            "service-definitionId": "sfo",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s24",
+            "vehicleId": "AH-32-44",
+            "service-definitionId": "sct",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/02 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s25",
+            "vehicleId": "AH-32-44",
+            "service-definitionId": "sfah",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s26",
+            "vehicleId": "AH-32-44",
+            "service-definitionId": "cr",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/03/26 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s27",
+            "vehicleId": "AH-32-44",
+            "service-definitionId": "sfah",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s28",
+            "vehicleId": "AH-21-25",
+            "service-definitionId": "sfam",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/07 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s29",
+            "vehicleId": "AH-21-25",
+            "service-definitionId": "sfam",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s30",
+            "vehicleId": "AH-21-25",
+            "service-definitionId": "svi",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/13 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s31",
+            "vehicleId": "AH-21-25",
+            "service-definitionId": "ad",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s32",
+            "vehicleId": "AA-01-BB",
+            "service-definitionId": "sfam",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/03 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s33",
+            "vehicleId": "AA-01-BB",
+            "service-definitionId": "sfah",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s34",
+            "vehicleId": "AA-01-BB",
+            "service-definitionId": "li",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/12 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s35",
+            "vehicleId": "AA-01-BB",
+            "service-definitionId": "li",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s36",
+            "vehicleId": "AA-02-BB",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/10 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s37",
+            "vehicleId": "AA-02-BB",
+            "service-definitionId": "sfam",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s38",
+            "vehicleId": "AA-02-BB",
+            "service-definitionId": "sba",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/08 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s39",
+            "vehicleId": "AA-02-BB",
+            "service-definitionId": "sfo",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s40",
+            "vehicleId": "AA-03-BB",
+            "service-definitionId": "le",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/03/30 09:30",
+            "descrição": ""
+        },
+        {
+            "id": "s41",
+            "vehicleId": "AA-03-BB",
+            "service-definitionId": "sct",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s42",
+            "vehicleId": "AA-03-BB",
+            "service-definitionId": "ad",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/03/26 17:30",
+            "descrição": ""
+        },
+        {
+            "id": "s43",
+            "vehicleId": "AA-03-BB",
+            "service-definitionId": "cr",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s44",
+            "vehicleId": "AA-04-BB",
+            "service-definitionId": "sfah",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/09 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s45",
+            "vehicleId": "AA-04-BB",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s46",
+            "vehicleId": "AA-04-BB",
+            "service-definitionId": "sfc",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/03/29 09:30",
+            "descrição": ""
+        },
+        {
+            "id": "s47",
+            "vehicleId": "AA-04-BB",
+            "service-definitionId": "sba",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s48",
+            "vehicleId": "AA-05-BB",
+            "service-definitionId": "sba",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/03/28 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s49",
+            "vehicleId": "AA-05-BB",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s50",
+            "vehicleId": "AA-05-BB",
+            "service-definitionId": "sba",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/03/31 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s51",
+            "vehicleId": "AA-05-BB",
+            "service-definitionId": "li",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s52",
+            "vehicleId": "AA-06-BB",
+            "service-definitionId": "li",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/14 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s53",
+            "vehicleId": "AA-06-BB",
+            "service-definitionId": "ad",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s54",
+            "vehicleId": "AA-06-BB",
+            "service-definitionId": "scc",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/09 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s55",
+            "vehicleId": "AA-06-BB",
+            "service-definitionId": "sfc",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s56",
+            "vehicleId": "AA-07-BB",
+            "service-definitionId": "le",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/02 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s57",
+            "vehicleId": "AA-07-BB",
+            "service-definitionId": "sfah",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s58",
+            "vehicleId": "AA-07-BB",
+            "service-definitionId": "li",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/10 09:30",
+            "descrição": ""
+        },
+        {
+            "id": "s59",
+            "vehicleId": "AA-07-BB",
+            "service-definitionId": "mot",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s60",
+            "vehicleId": "AA-08-BB",
+            "service-definitionId": "li",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/03/26 14:15",
+            "descrição": ""
+        },
+        {
+            "id": "s61",
+            "vehicleId": "AA-08-BB",
+            "service-definitionId": "cr",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s62",
+            "vehicleId": "AA-08-BB",
+            "service-definitionId": "sba",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/15 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s63",
+            "vehicleId": "AA-08-BB",
+            "service-definitionId": "li",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s64",
+            "vehicleId": "AA-09-BB",
+            "service-definitionId": "sfo",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/02 09:30",
+            "descrição": ""
+        },
+        {
+            "id": "s65",
+            "vehicleId": "AA-09-BB",
+            "service-definitionId": "li",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s66",
+            "vehicleId": "AA-09-BB",
+            "service-definitionId": "sfam",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/14 09:30",
+            "descrição": ""
+        },
+        {
+            "id": "s67",
+            "vehicleId": "AA-09-BB",
+            "service-definitionId": "sct",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s68",
+            "vehicleId": "AA-10-BB",
+            "service-definitionId": "svi",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/05 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s69",
+            "vehicleId": "AA-10-BB",
+            "service-definitionId": "svi",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s70",
+            "vehicleId": "AA-10-BB",
+            "service-definitionId": "ad",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/03/31 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s71",
+            "vehicleId": "AA-10-BB",
+            "service-definitionId": "sct",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s72",
+            "vehicleId": "AA-11-BB",
+            "service-definitionId": "cr",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/06 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s73",
+            "vehicleId": "AA-11-BB",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s74",
+            "vehicleId": "AA-11-BB",
+            "service-definitionId": "adb",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/15 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s75",
+            "vehicleId": "AA-11-BB",
+            "service-definitionId": "le",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s76",
+            "vehicleId": "AA-12-BB",
+            "service-definitionId": "ad",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/10 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s77",
+            "vehicleId": "AA-12-BB",
+            "service-definitionId": "sfah",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s78",
+            "vehicleId": "AA-12-BB",
+            "service-definitionId": "mot",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/03/31 09:30",
+            "descrição": ""
+        },
+        {
+            "id": "s79",
+            "vehicleId": "AA-12-BB",
+            "service-definitionId": "sfo",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s80",
+            "vehicleId": "AA-13-BB",
+            "service-definitionId": "sfc",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/08 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s81",
+            "vehicleId": "AA-13-BB",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s82",
+            "vehicleId": "AA-13-BB",
+            "service-definitionId": "sfam",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/13 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s83",
+            "vehicleId": "AA-13-BB",
+            "service-definitionId": "sfo",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s84",
+            "vehicleId": "AA-14-BB",
+            "service-definitionId": "sfc",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/13 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s85",
+            "vehicleId": "AA-14-BB",
+            "service-definitionId": "cr",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s86",
+            "vehicleId": "AA-14-BB",
+            "service-definitionId": "scc",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/10 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s87",
+            "vehicleId": "AA-14-BB",
+            "service-definitionId": "mom",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s88",
+            "vehicleId": "AA-15-BB",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/06 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s89",
+            "vehicleId": "AA-15-BB",
+            "service-definitionId": "mot",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s90",
+            "vehicleId": "AA-15-BB",
+            "service-definitionId": "le",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/10 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s91",
+            "vehicleId": "AA-15-BB",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s92",
+            "vehicleId": "AA-16-BB",
+            "service-definitionId": "sfah",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/03 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s93",
+            "vehicleId": "AA-16-BB",
+            "service-definitionId": "sfam",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s94",
+            "vehicleId": "AA-16-BB",
+            "service-definitionId": "mot",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/15 16:00",
+            "descrição": ""
+        },
+        {
+            "id": "s95",
+            "vehicleId": "AA-16-BB",
+            "service-definitionId": "mot",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s96",
+            "vehicleId": "AA-17-BB",
+            "service-definitionId": "svi",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/09 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s97",
+            "vehicleId": "AA-17-BB",
+            "service-definitionId": "sva",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s98",
+            "vehicleId": "AA-17-BB",
+            "service-definitionId": "svi",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/15 09:30",
+            "descrição": ""
+        },
+        {
+            "id": "s99",
+            "vehicleId": "AA-17-BB",
+            "service-definitionId": "cr",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s100",
+            "vehicleId": "AA-18-BB",
+            "service-definitionId": "sct",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/03/30 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s101",
+            "vehicleId": "AA-18-BB",
+            "service-definitionId": "scc",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s102",
+            "vehicleId": "AA-18-BB",
+            "service-definitionId": "mom",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/08 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s103",
+            "vehicleId": "AA-18-BB",
+            "service-definitionId": "cr",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s104",
+            "vehicleId": "AA-19-BB",
+            "service-definitionId": "sct",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/04/04 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s105",
+            "vehicleId": "AA-19-BB",
+            "service-definitionId": "le",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s106",
+            "vehicleId": "AA-19-BB",
+            "service-definitionId": "mot",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/08 08:00",
+            "descrição": ""
+        },
+        {
+            "id": "s107",
+            "vehicleId": "AA-19-BB",
+            "service-definitionId": "sp",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s108",
+            "vehicleId": "AA-20-BB",
+            "service-definitionId": "sfo",
+            "estado": "Não iniciado",
+            "agendamento": "programado",
+            "data": "2024/03/29 11:00",
+            "descrição": ""
+        },
+        {
+            "id": "s109",
+            "vehicleId": "AA-20-BB",
+            "service-definitionId": "scc",
+            "estado": "Não iniciado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s110",
+            "vehicleId": "AA-20-BB",
+            "service-definitionId": "sfp",
+            "estado": "Finalizado",
+            "agendamento": "programado",
+            "data": "2024/04/01 14:00",
+            "descrição": ""
+        },
+        {
+            "id": "s111",
+            "vehicleId": "AA-20-BB",
+            "service-definitionId": "sfah",
+            "estado": "Finalizado",
+            "agendamento": "filaDeEspera",
+            "descrição": ""
+        },
+        {
+            "id": "s201",
+            "vehicleId": "AA-15-BB",
+            "service-definitionId": "sct",
+            "estado": "Pendente",
+            "agendamento": "filaDeEspera",
+            "descrição": "Problemas técnicos."
+        },
+        {
+            "id": "s202",
+            "vehicleId": "AA-16-BB",
+            "service-definitionId": "sfp",
+            "estado": "Pendente",
+            "agendamento": "filaDeEspera",
+            "descrição": "Ferida no pneu."
+        },
+        {
+            "id": "s203",
+            "vehicleId": "AA-17-BB",
+            "service-definitionId": "sfc",
+            "estado": "Pendente",
+            "agendamento": "filaDeEspera",
+            "descrição": "Atrasos."
+        },
+        {
+            "id": "s204",
+            "vehicleId": "AA-18-BB",
+            "service-definitionId": "scc",
+            "estado": "Pendente",
+            "agendamento": "filaDeEspera",
+            "descrição": "Doença do mecânico."
+        },
+        {
+            "id": "s205",
+            "vehicleId": "AA-19-BB",
+            "service-definitionId": "sp",
+            "estado": "Pendente",
+            "agendamento": "filaDeEspera",
+            "descrição": "Faltou uma componente."
+        }
+    ],
+    "mechanics": [
+        {
+            "id": 1,
+            "name": "João",
+            "posto": 1,
+            "email": "teste1@gmail.com",
+            "password": "1234"
+        },
+        {
+            "id": 2,
+            "name": "Tomás",
+            "posto": 2,
+            "email": "teste2@gmail.com",
+            "password": "1234"
+        },
+        {
+            "id": 3,
+            "name": "Hugo",
+            "posto": 3,
+            "email": "teste3@gmail.com",
+            "password": "1234"
+        }
+    ],
+    "workstations": [
+        {
+            "id": "1",
+            "name": "Posto 1",
+            "mechanic-id": 1,
+            "available-services": [
+                "sp",
+                "cr",
+                "ad",
+                "sct",
+                "mot",
+                "li",
+                "le",
+                "sfah",
+                "mom",
+                "sfo",
+                "sfc",
+                "sfam",
+                "scc",
+                "sba",
+                "sva",
+                "svi",
+                "adb",
+                "sb"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Posto 2",
+            "mechanic-id": 2,
+            "available-services": [
+                "sp",
+                "cr",
+                "ad",
+                "sct",
+                "mot",
+                "li",
+                "le",
+                "sfah",
+                "adb",
+                "sb"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Posto 3",
+            "mechanic-id": 3,
+            "available-services": [
+                "sp",
+                "cr",
+                "ad",
+                "sct",
+                "mot",
+                "li",
+                "le",
+                "sfah",
+                "mom",
+                "sfo",
+                "sfc",
+                "sfam",
+                "scc",
+                "sba",
+                "sva",
+                "svi",
+                "sfp",
+                "rfp"
+            ]
+        }
+    ]
+}
